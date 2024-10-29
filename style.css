@@ -1,0 +1,75 @@
+body{
+    background-color:hsl(185, 75%, 39%);
+    font-family: "Kumbh Sans", sans-serif;
+    height: 100vh;
+    font-size: 18px;
+}
+
+hr{
+   width: 100%;
+}
+
+.container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+}
+
+.card{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   gap: 25px;
+   border-radius: 15px;
+   background-color: #fff;
+   margin: 20px;
+   width: 330px;
+   height: 350px;   
+   
+    
+}
+
+ img {
+   border-radius: 200px;
+   margin-top: 20px;
+ }    
+
+ .nome{
+    text-align: center;
+    font: size 18px;
+    margin: 25 0 20px;
+ }
+
+ .idade{
+    color: hsl(227, 10%, 46%);
+ }
+
+ .cidade{
+    color:hsl(227, 10%, 46%);
+
+ } 
+
+ .info{
+    width: 100px;
+    
+ }
+
+ .numeros-de-perfil {
+   display: flex;
+   align-items: center; 
+   justify-content: space-evenly;
+   width: 100%;
+   padding-bottom: 30px;
+   text-align: center;
+   list-style-type: none;   
+
+}
+
+
+.numeros-de-perfil .info .contador{
+   font-weight: 700;
+   
+   
+}
